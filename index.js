@@ -1,1 +1,0 @@
-let { RockPaperScissors } = require('./RockPaperScissors');

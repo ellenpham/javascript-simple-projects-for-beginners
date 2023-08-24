@@ -5,9 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev" : "nodemon index.js",
-    "devPromptSync" : "CHOKIDAR_USEPOLLING=true nodemon --no-stdin index.js"
+    "rockpaperscissors" : "node RockPaperScissors.js",
+    "sleepdebtcalculator" : "node SleepDebtCalculator.js"
   },
   "author": "",
   "license": "ISC",

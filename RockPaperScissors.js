@@ -134,8 +134,8 @@ try {
 } finally {
   console.log("\nThe game has ended! See you next time!");
 };
-  
 
+  
 module.exports = {
-    playGame
+  playGame
 }
