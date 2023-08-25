@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "rockpaperscissors" : "node RockPaperScissors.js",
-    "sleepdebtcalculator" : "node SleepDebtCalculator.js"
+    "rockpaperscissors" : "node functions/RockPaperScissors.js",
+    "sleepdebtcalculator" : "node functions/SleepDebtCalculator.js",
+    "trainingdays" : "node scope/trainingDays.js"
   },
   "author": "",
   "license": "ISC",

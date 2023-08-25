@@ -15,6 +15,8 @@ class userInputError extends Error {
 console.log('\nHi, welcome to the Sleep Debt Calculator!\n');
 console.log("Please input your sleep hours for the listed days: ");
 
+
+// need to adjust for DRY code
 function app() {
     const monSleepHours = promptInstance("Monday: ");
     const tueSleepHours = promptInstance("Tuesday: ");
