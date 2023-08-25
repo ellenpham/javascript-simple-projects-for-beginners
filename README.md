@@ -11,4 +11,13 @@ Command line to run: `npm run rockpaperscissors`
 
 Command line to run: `npm run sleepdebtcalculator`
 
-to be continued...
+3. Training Days
+
+Command line to run: `npm run trainingdays`
+
+4. Secret Message
+
+Command line to run: `npm run secretmessage`
+
+to be continued....
+
