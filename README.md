@@ -1,7 +1,9 @@
 ## 10 simple projects for JavaScript beginners
 
 Topics covered: Variables, Scope, Functions, Arrays, Loops, Iterators, ...
+
 Runtime environment: NodeJS
+
 Source: Codecademy
 
 1. Rock, Paper, or Scissors
