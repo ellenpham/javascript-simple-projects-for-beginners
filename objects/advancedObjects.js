@@ -111,4 +111,105 @@ const robot3 = {
   console.log(robot3.numOfSensors); // return Pass in a number that is greater than or equal to 0
 
 
-// Factory function 
+// Factory function
+// A factory function is a function that returns an object 
+// and can be reused to make multiple object instances
+
+// Example 1
+
+const monsterFactory = (name, age, energySource, catchPhrase) => {
+    return { 
+      name: name,
+      age: age, 
+      energySource: energySource,
+      scare() {
+        console.log(catchPhrase);
+      } 
+    }
+};
+
+const ghost = monsterFactory('Ghouly', 251, 'ectoplasm', 'BOO!');
+ghost.scare(); // return 'BOO!'
+
+// Example 2
+
+const robotFactory = (model, mobile) => {
+    return {
+      model: model,
+      mobile: mobile,
+      beep() {
+        console.log('Beep Boop');
+      }
+    }
+};
+  
+const tinCan = robotFactory('P-500', true);
+tinCan.beep(); // return "Beep Boop"
+console.log(tinCan.model); // return P-500
+console.log(tinCan.mobile); // return true
+
+
+// Property Value Shorthand - Destructuring
+
+const robotsFactory = (model, mobile) => {
+    return {
+      model,
+      mobile,
+      beep() {
+        console.log('Beep Boop');
+      }
+    }
+}
+  
+// To check that the property value shorthand technique worked:
+const newRobot = robotsFactory('P-501', false)
+console.log(newRobot.model) // return 'P-501'
+console.log(newRobot.mobile) // return false
+
+
+
+// Destructured assignment
+// it's not just creating a variable name, 
+// it's pulling the property name from obj and 
+// turning it into a variable that holds the same value the property itself had in the object
+
+const robot4 = {
+    model: '1E78V2',
+    energyLevel: 100,
+    functionality: {
+      beep() {
+        console.log('Beep Boop');
+      },
+      fireLaser() {
+        console.log('Pew Pew');
+      },
+    }
+  };
+  
+const { functionality } =  robot4;
+  
+// robot.functionality.beep(); - same as the below
+functionality.beep(); // return "Beep boop"
+
+
+
+// Built-in object methods
+const robot5 = {
+model: 'SAL-1000',
+  mobile: true,
+  sentient: false,
+  armor: 'Steel-plated',
+  energyLevel: 75
+};
+
+// What is missing in the following method call?
+const robotKeys = Object.keys(robot5);
+console.log(robotKeys);
+
+// Declare robotEntries below this line:
+const robotEntries = Object.entries(robot5)
+console.log(robotEntries);
+
+// Declare newRobot below this line:
+const newRobot5 = Object.assign({laserBlaster: true, voiceRecognition: true}, robot5);
+console.log(newRobot5);
