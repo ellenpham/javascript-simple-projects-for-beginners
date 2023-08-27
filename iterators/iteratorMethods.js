@@ -116,4 +116,53 @@ const newSum1 = newNumbers.reduce( (accumulator, currentValue) => {
 console.log('The value of newSum1: ' + newSum1);
 
 
+// The some() method and the every() method
+
+const words = ['unique', 'uncanny', 'pique', 'oxymoron', 'guise'];
+
+// some() method 
+// check if there are words that are fewer than 6 characters long in the array
+// return boolean value
+console.log(words.some((word) => {
+  return word.length < 6;
+}));
+
+// Use filter to create a new array
+const interestingWords = words.filter( (word) => {
+  return word.length > 5;
+});
+console.log(interestingWords);
+
+// every() method
+// check if every element of interestingWords has more than 5 characters
+// return boolean value
+console.log(interestingWords.every((word) => { 
+  return word.length > 5;
+}));
+
+// A few other examples
+
+const cities = ['Orlando', 'Dubai', 'Edinburgh', 'Chennai', 'Accra', 'Denver', 'Eskisehir', 'Medellin', 'Yokohama'];
+
+const nums = [1, 50, 75, 200, 350, 525, 1000];
+
+//  Choose a method that will return undefined
+cities.forEach(city => console.log('Have you visited ' + city + '?'));
+
+// Choose a method that will return a new array
+const longCities = cities.filter(city => city.length > 7); // return [ 'Edinburgh', 'Eskisehir', 'Medellin', 'Yokohama' ]
+
+// Choose a method that will return a single value
+const word = cities.reduce((acc, currVal) => {
+  return acc + currVal[0]
+}, "C");
+
+console.log(word) // return CODECADEMY
+
+// Choose a method that will return a new array
+const smallerNums = nums.map(num => num - 5); // return [ -4, 45, 70, 195, 345, 520, 995 ]
+
+// Choose a method that will return a boolean value
+nums.some(num => num < 50); // return true
+nums.every(num => num < 50); // return false
 
