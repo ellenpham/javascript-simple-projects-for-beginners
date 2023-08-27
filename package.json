@@ -9,7 +9,8 @@
     "sleepdebtcalculator" : "node functions/SleepDebtCalculator.js",
     "trainingdays" : "node scope/trainingDays.js",
     "secretmessage" : "node arrays/secretMessage.js",
-    "whaletalk" : "node loops/whaleTalk.js"
+    "whaletalk" : "node loops/whaleTalk.js",
+    "grammarchecker" : "node iterators/grammarChecker.js"
   },
   "author": "",
   "license": "ISC",

@@ -26,3 +26,6 @@ Command line to run: `npm run secretmessage`
 
 Command line to run: `npm run whaletalk`
 
+6. Grammar Checker
+
+Command line to run: `npm run grammarchecker`
