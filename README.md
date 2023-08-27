@@ -1,6 +1,6 @@
 ## 10 simple projects for JavaScript beginners
 
-Topics covered: Variables, Scope, Functions, Arrays, Loops, Iterators, Higher-order Functions, Objects
+Topics covered: Variables, Scope, Functions, Arrays, Loops, Iterators, Higher-order Functions, Objects, Advanced Objects. 
 
 Runtime environment: NodeJS
 
