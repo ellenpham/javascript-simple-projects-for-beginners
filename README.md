@@ -1,7 +1,8 @@
 ## 10 simple projects for JavaScript beginners
 
-Topics covered: Variables, Scope, Functions, Iterators, ...
+Topics covered: Variables, Scope, Functions, Arrays, Loops, Iterators, ...
 Runtime environment: NodeJS
+Source: Codecademy
 
 1. Rock, Paper, or Scissors
 
@@ -19,5 +20,7 @@ Command line to run: `npm run trainingdays`
 
 Command line to run: `npm run secretmessage`
 
-to be continued....
+5. Whale Talk
+
+Command line to run: `npm run whaletalk`
 

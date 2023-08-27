@@ -8,7 +8,8 @@
     "rockpaperscissors" : "node functions/RockPaperScissors.js",
     "sleepdebtcalculator" : "node functions/SleepDebtCalculator.js",
     "trainingdays" : "node scope/trainingDays.js",
-    "secretmessage" : "node arrays/secretMessage.js"
+    "secretmessage" : "node arrays/secretMessage.js",
+    "whaletalk" : "node loops/whaleTalk.js"
   },
   "author": "",
   "license": "ISC",
