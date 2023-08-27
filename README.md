@@ -1,4 +1,4 @@
-## 10 simple projects for JavaScript beginners
+## Simple projects for JavaScript beginners
 
 Topics covered: Variables, Scope, Functions, Arrays, Loops, Iterators, Higher-order Functions, Objects, Advanced Objects. 
 
